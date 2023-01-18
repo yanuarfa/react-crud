@@ -24,7 +24,7 @@ function App() {
 
     if (edit.id) {
       const updatedTodo = {
-        id: edit.id,
+        ...edit,
         activity,
       };
 
@@ -127,6 +127,7 @@ function App() {
                 <li key={todo.id}>
                   <input
                     type="checkbox"
+                    checked={todo.isFinish}
                     onChange={() => isFinishHandler(todo)}
                   />
                   {todo.activity} ({todo.isFinish ? 'Selesai' : 'Belum Selesai'}
