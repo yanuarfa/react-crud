@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.formData {
+  display: block;
+}
+
+.inputSearch {
+  border-radius: 4px;
+  border: 1px solid rgb(9, 6, 22);
+  padding: 10px;
+  margin: 0 5px;
+  transition: border-color 0.25s;
+}
+
+.inputSearch:focus {
+  border: 1px solid rgb(92, 92, 235);
+}
+
+.hasil {
+  text-align: left;
+}
+
+.textNone {
+  text-align: center;
+}
+
+.btnHapus,
+.btnEdit,
+.btnTambah,
+.btnBatal {
+  padding: 8px;
+  margin: 4px 6px;
+  transition: background-color 0.25s;
+}
+
+.btnTambah:hover {
+  background-color: #1e2ce9ee;
+  border-color: #1a00ad;
+}
+
+.btnBatal:hover {
+  background-color: #f56d6d;
+  border-color: #f54a4a;
+}
+
+.btnHapus:hover {
+  background-color: #f56d6d;
+  border-color: #f54a4a;
+}
+
+.btnEdit:hover {
+  background-color: #7e95fd;
+  border-color: #7a87f7;
+}
+
+.wrapperAlert {
+  background-color: rgb(236, 81, 81);
+  height: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
